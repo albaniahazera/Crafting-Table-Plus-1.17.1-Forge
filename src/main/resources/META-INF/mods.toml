@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="GNU General Public License, Version 3 (GPLv3)"
+[[mods]]
+modId="craftingtableplus"
+version="1.17.1-1.0.0"
+displayName="Crafting Table Plus"
+#logoFile="examplemod.png"
+displayURL="https://allmods.alhazera25.my.id/mods/crafting-table-plus"
+credits="Thanks To ALhaZera25 Company"
+authors="albania hazera"
+description='''
+This mod allows you to craft various items from crafting tables that are not supported by Minecraft Vanilla.
+Thanks for download and using our mod
+'''
+
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
