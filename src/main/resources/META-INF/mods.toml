@@ -3,14 +3,13 @@ loaderVersion="[37,)"
 license="GNU General Public License, Version 3 (GPLv3)"
 [[mods]]
 modId="craftingtableplus"
-version="1.17.1-1.0.0"
+version="1.17.1-1.1"
 displayName="Crafting Table Plus"
 logoFile="ctp.png"
 displayURL="https://allmods.alhazera25.my.id/mods/crafting-table-plus"
 credits="Thanks To ALhaZera25 Company"
 authors="albania hazera"
 description='''
-This mod allows you to craft various items from crafting tables that are not supported by Minecraft Vanilla.
 Thanks for download and using our mod
 '''
 

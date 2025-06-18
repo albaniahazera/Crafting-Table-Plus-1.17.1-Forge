@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_chainmail_helmet",
+      "craftingtableplus:crafting_chainmail_chestplate",
+      "craftingtableplus:crafting_chainmail_boots",
+      "craftingtableplus:crafting_chainmail_leggings"
+    ]
+  },
+  "criteria": {
+    "has_iron_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":[
+        "craftingtableplus:crafting_chainmail_helmet",
+        "craftingtableplus:crafting_chainmail_chestplate",
+        "craftingtableplus:crafting_chainmail_boots",
+        "craftingtableplus:crafting_chainmail_leggings"
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_nugget",
+      "has_the_recipe"
+    ]
+  ]
+}
